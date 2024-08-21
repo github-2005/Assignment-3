@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- Font Awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Gogle font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Talwind and Duisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+     <!-- Configar -->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                 
+                clifford: '#da373d',
+                .font{
+                    font-family: "Manrope", sans-serif;
+                }
+              }
+            }
+          }
+        }
+      </script>
+     
+
+</head>
+<body class="font">
+    <!-- Header section -->
+     <header>
+        <!-- navber -->
+        <div class="navbar bg-base-100 w-11/12 mx-auto">
+            <div class="navbar-start">
+              <a class="btn btn-ghost text-2xl font-bold">
+                <div class=" bg-[#ABEF5F] w-8 h-8 rounded-xl  ">
+                    <i class="fa-solid fa-arrow-right -rotate-45 text-lg"></i>
+                </div>
+                
+                Rinterio</a>
+             
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 font-semibold">
+                <li><a>Home</a></li>
+                <li class="text-[#737373]"><a>Services</a></li>
+                <li class="text-[#737373]"><a>Protfolio</a></li>
+                <li class="text-[#737373]"><a>Blogs</a></li>
+                <li class="text-[#737373]"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="lg:flex lg:gap-4 ">
+                    <button><i class="fa-solid fa-magnifying-glass invisible lg:visible"></i></button>
+                    <button><i class="fa-solid fa-cart-shopping invisible lg:visible"></i></button>
+                    
+                  <button class="bg-[#ABEF5F] px-3 py-1 rounded-2xl invisible lg:visible">Book consult  <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 rounded-lg text-md"></i></button>
+                </div>
+                
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 right-0 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li class="text-[#737373]"><a>Services</a></li>
+                  <li class="text-[#737373]"><a>Protfolio</a></li>
+                  <li class="text-[#737373]"><a>Blogs</a></li>
+                  <li class="text-[#737373]"><a>Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+         <!-- banner -->
+         <div class="hero  w-11/12 mx-auto">
+            <div class=" text-center">
+              <div class="">
+                <img class="w-96 lg:ml-44 text-center " src="./assets/banner.png" alt="">
+                <h1 class="text-5xl  font-bold">A barn house of this design has a <br> striking appearance</h1>
+                <p class="py-6">
+                    This architecture of this house is clear because of its very distinct main form, <br> consisting of a volume of white painted brickwork with a dark plinth, capped with an overhanging roof.
+                </p>
+                <button class="bg-[#cef79f] px-4 py-1 rounded-2xl ">View Details  <i class="fa-solid fa-arrow-right bg-[#ABEF5F] -rotate-45 rounded-lg text-md"></i></button>
+              </div>
+            </div>
+          </div>
+
+     </header>
+     <!-- Main section -->
+      <main>
+
+      </main>
+      <!-- fotter section -->
+       <footer>
+
+       </footer>
+    
+</body>
+</html>
